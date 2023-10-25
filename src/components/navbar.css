@@ -1,0 +1,281 @@
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-size: 1.6rem; 
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+   /* height: 100vh; */
+     height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+li {
+    list-style: none;
+}
+
+.logo h3{
+    float: right;
+    text-align: center;
+    color: gold;
+    margin-left: 10px;
+    margin: 10px;
+ } 
+ 
+/* navbar style start */
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 9vh;
+    background: rgb(182, 98, 19);
+}
+
+.menu-link-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    height: 10vh;
+}
+
+.menu-link-desktop li:hover{
+    background: rgba(156, 71, 131, 0.993);
+    
+}
+
+.active {
+    color: aqua;
+}
+
+/* social media coding */
+.social-media ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem; 
+}
+
+.social-media li:hover{
+    background: aqua;
+}
+
+.facebook {
+    color: blue;
+}
+.insta {
+    color: darkviolet;
+}
+.youtube {
+    color: #ff0000;
+}
+
+/* hero section coding*/
+.hero-section {
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(lime, darkseagreen);
+}
+.hero-section p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+
+/* Animation Text*/ 
+.hero {
+    position: relative;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #383d52;
+    width: 102px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: gold;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid  gold; /*#01fe87*/
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+
+}
+
+@keyframes animate 
+{
+0%,10%,100% {
+    width: 0;
+}
+70%,90%
+{
+    width: 100%;
+}
+
+}
+
+/*footer css coding*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 5rem;
+    background-color: rgb(182, 98, 19);
+    margin-top: auto;
+    
+}
+
+.footer-youtube{
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 6px;
+    background-color: #ff0000;
+}
+
+.footer h3 {
+    color: #fff;
+    margin: 1rem;
+}
+/*Images css */
+.about,.contact{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+
+.contact p,.about p{
+    color: blue;
+    font-size: 20px;
+    padding: 25px;
+    
+}
+.contact p span,.about p span{
+    color:darkgreen;
+    font-size: 25px;
+    padding: 30px;
+    margin: 30px;
+    text-decoration: underline maroon solid;
+}
+
+.home{
+    background-image: url(../Images/Home\ new1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 4px 4px 4px #fff;
+}
+ 
+.about{
+    background-image: url(../Images/About\ new1.jpg);
+}
+
+.contact{
+    background-image: url(../Images/contactUs\ new1.jpg);
+}
+
+/*Responsive css */
+
+.mobile-menu{
+    display: none;
+}
+.social-media-mobile ul{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+.menu-link-desktop{
+    display: none;
+}
+
+.social-media ul{
+    display: none;
+   
+}
+
+.social-media-mobile ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+     
+}
+
+.facebook {
+    color: blue;
+}
+
+.insta {
+    color: darkviolet;
+}
+
+.youtube {
+    color: #ff0000;
+}
+
+.about,.contact{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+   height: 73vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.menu-link-mobile {
+    position: absolute;
+    display: block;
+    background-color:rgb(182, 98, 19) ;
+    top: 80px;
+    left: 0;
+    gap: 1.5rem;
+    width: 100%;
+    transition: all 1s ease;
+    text-align: center;
+    padding: 32px;
+}
+.mobile-menu{
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    color: black;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 35px;
+    background-color:rgb(182, 98, 19) ;
+}
+
+}
