@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/nayainquilab/static/css/main.251192fd.css",
-    "main.js": "/nayainquilab/static/js/main.cf104f4e.js",
+    "main.js": "/nayainquilab/static/js/main.07777886.js",
     "static/js/787.e830c55a.chunk.js": "/nayainquilab/static/js/787.e830c55a.chunk.js",
     "static/media/Home new1.png": "/nayainquilab/static/media/Home new1.7a41fdb977116f3d934e.png",
     "static/media/About new1.jpg": "/nayainquilab/static/media/About new1.ea989e755a5f2ce4f8f9.jpg",
     "static/media/contactUs new1.jpg": "/nayainquilab/static/media/contactUs new1.5896ecfc507ffb0dfdde.jpg",
     "index.html": "/nayainquilab/index.html",
     "main.251192fd.css.map": "/nayainquilab/static/css/main.251192fd.css.map",
-    "main.cf104f4e.js.map": "/nayainquilab/static/js/main.cf104f4e.js.map",
+    "main.07777886.js.map": "/nayainquilab/static/js/main.07777886.js.map",
     "787.e830c55a.chunk.js.map": "/nayainquilab/static/js/787.e830c55a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.251192fd.css",
-    "static/js/main.cf104f4e.js"
+    "static/js/main.07777886.js"
   ]
 }
