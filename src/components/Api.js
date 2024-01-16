@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import "./navbar.css";
 
 function Api() {
   const [find, setFind] = useState([])
@@ -34,7 +35,7 @@ function Api() {
               return (
                 <div className='col my-3'>
 
-                  <div className="card" style={{ width: "22rem" }}>
+                  <div className="cardnew" style={{ width: "22rem" }}>
                     <img src={val.snippet.thumbnails.medium.url} width="300px" className="card-img-top" alt="..." />
                     <div className="card-body">
                       <h5 className="card-title">{val.snippet.title}</h5>

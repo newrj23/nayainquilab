@@ -13,12 +13,13 @@ function Navbar() {
                 {/* 1 logo part */}
                 <div className='logo'>
                     <h3>Naya Inquilab</h3>
-                    <img src='./images/Naya inq Logo 2.png' alt='Logo' />
+                    {/*<img src='images/Naya inq Logo 2.png' alt='Logo' />*/}
+                    
                 </div>
 
                 {/* 2 menu part */}
                 <ul className={menuOpen ? 'menu-link-mobile' : 'menu-link-desktop'}
-                onClick={() => setMenuOpen(false)}>
+                    onClick={() => setMenuOpen(false)}>
                     <li>
                         <NavLink to='/'>Home</NavLink>
                     </li>
@@ -49,20 +50,20 @@ function Navbar() {
                                 target='_new'><FaYoutube className="youtube " /></a>
                         </li>
                     </ul>
-                    </div>    
-                    {/* humburger menu start */}
-                    <button className='mobile-menu' onClick={() => setMenuOpen(!menuOpen)} >
-                        {menuOpen ? (<FaTimes className='close-btn' />) :
-                            (<RxHamburgerMenu className='open-btn' />)}
-                    </button>
-                </nav>
+                </div>
+                {/* humburger menu start */}
+                <button className='mobile-menu' onClick={() => setMenuOpen(!menuOpen)} >
+                    {menuOpen ? (<FaTimes className='close-btn' />) :
+                        (<RxHamburgerMenu className='open-btn' />)}
+                </button>
+            </nav>
 
             {/* hero section */}
             <div className='hero-section'>
                 <p> Wetcome to </p>
                 <h3 data-text="NayaInquilab" className='hero'>NayaInquilab</h3>
             </div>
-            
+
         </>
     );
 };

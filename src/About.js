@@ -11,7 +11,7 @@ function About () {
      been providing service and News <br/>since April 2020.</p>
   </div>
   
-   <Footer/>
+   <Footer/> 
    </>
   );
 }
