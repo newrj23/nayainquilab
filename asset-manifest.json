@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/nayainquilab/static/css/main.251192fd.css",
-    "main.js": "/nayainquilab/static/js/main.07777886.js",
+    "main.css": "/nayainquilab/static/css/main.67b45f94.css",
+    "main.js": "/nayainquilab/static/js/main.f47fccbb.js",
     "static/js/787.e830c55a.chunk.js": "/nayainquilab/static/js/787.e830c55a.chunk.js",
-    "static/media/Home new1.png": "/nayainquilab/static/media/Home new1.7a41fdb977116f3d934e.png",
+    "static/media/anim1.mp4": "/nayainquilab/static/media/anim1.288ae32339bd71f5b5d2.mp4",
+    "static/media/home.png": "/nayainquilab/static/media/home.808a45f1f386cfc02ccc.png",
     "static/media/About new1.jpg": "/nayainquilab/static/media/About new1.ea989e755a5f2ce4f8f9.jpg",
     "static/media/contactUs new1.jpg": "/nayainquilab/static/media/contactUs new1.5896ecfc507ffb0dfdde.jpg",
     "index.html": "/nayainquilab/index.html",
-    "main.251192fd.css.map": "/nayainquilab/static/css/main.251192fd.css.map",
-    "main.07777886.js.map": "/nayainquilab/static/js/main.07777886.js.map",
+    "main.67b45f94.css.map": "/nayainquilab/static/css/main.67b45f94.css.map",
+    "main.f47fccbb.js.map": "/nayainquilab/static/js/main.f47fccbb.js.map",
     "787.e830c55a.chunk.js.map": "/nayainquilab/static/js/787.e830c55a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.251192fd.css",
-    "static/js/main.07777886.js"
+    "static/css/main.67b45f94.css",
+    "static/js/main.f47fccbb.js"
   ]
 }
