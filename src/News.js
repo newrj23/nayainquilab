@@ -7,7 +7,10 @@ function News () {
   return (
   <>
    <Navbar />
-   <Api /> 
+   <Api />
+   <span className='new'>
+
+   </span>
   <Footer />
    </>
   ); 

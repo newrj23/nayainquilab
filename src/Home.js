@@ -2,7 +2,7 @@
 import Navbar from './components/Navbar';
 import Slidebar from './components/Slidebar';
 import Footer from './components/Footer';
-import animat from './Images/anim1.mp4'
+//import animat from './Images/anim1.mp4'
 
 function Home() {
   return (
@@ -10,11 +10,11 @@ function Home() {
       <Navbar />
       <Slidebar />
       {/* <div className='home'></div> */}
-      <div>
-        <video width="410" height="180" autoPlay loop muted>
+      {/* <div>
+        <video width="210" height="90" autoPlay loop muted>
           <source src={animat}/>
         </video>
-      </div> 
+      </div>  */}
       <Footer />
     </>
   );
