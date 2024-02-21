@@ -113,11 +113,6 @@ li {
 
 }
 
-/* .social-media li:hover {
-    /* background: aqua; 
-    background: #f00;
-} */
-
 .social-media li:hover:before {
     height: 100%;
 }
@@ -138,8 +133,7 @@ li {
 .hero-section {
     text-align: center;
     justify-content: center;
-    /* background: linear-gradient(lime, darkseagreen); */
-    background: #05c46b;
+     background: #05c46b;
    
 }
 
@@ -170,46 +164,6 @@ li {
         width: 106px;
     }
 }
-/* .hero {
-    position: relative;
-    color: #252839;
-    -webkit-text-stroke: 0.3vw #383d52;
-    width: 102px;
-    display: inline-flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.hero::before {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    color: gold;
-    -webkit-text-stroke: 0vw #383d52;
-    border-right: 2px solid gold;
-    /*#01fe87
-    overflow: hidden;
-    animation: animate 6s linear infinite;
-
-} */
-
-/* @keyframes animate {
-
-    0%,
-    10%,
-    100% {
-        width: 0;
-    }
-
-    70%,
-    90% {
-        width: 100%;
-    }
-
-}  */
 
 /*footer css coding*/
 .footer {
@@ -218,7 +172,6 @@ li {
     justify-content: center;
     width: 100vw;
     height: 5rem;
-    /* background-color: rgb(182, 98, 19); */
     background-color: #2d3436;
     margin-top: auto;
 
@@ -236,42 +189,34 @@ li {
     margin: 1rem;
 }
 
-/*Images css */
-.about,
-.contact {
+.threed,
+.threedcontact{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    height: 80vh;
-    width: 100%;
-    background-position: right;
+    height: 90vh;
+    background-position: center;
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
 
-.contact p,
-.about p {
-    color: blue;
+.threed p,
+.threedcontact p{
     font-size: 20px;
-    padding: 25px;
-
 }
 
-.contact p span,
-.about p span {
-    color: darkgreen;
+.threed p span,
+.threedcontact p span{
     font-size: 25px;
-    padding: 30px;
-    margin: 30px;
-    text-decoration: underline maroon solid;
+    text-decoration: underline #fff200 solid;
+    
 }
 
-.about {
-    background-image: url(../Images/About\ new1.jpg);
+.threed{
+    background-image:url(../Images/threed.jpg);
 }
-
-.contact {
-    background-image: url(../Images/contactUs\ new1.jpg);
+.threedcontact{
+    background-image: url(../Images/threedcontact.jpg);
 }
 
 .new {
@@ -284,7 +229,11 @@ li {
 .wrapper {
     width: 100%; 
     height: 400px;
-    background: #383d52;
+    /* background: #383d52; */
+    background-image: url(../Images/youtube.jpg);
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -301,13 +250,12 @@ li {
     height: 10px !important;
     border: 1px solid transparent !important;
     border-radius: 10px;
-   
 }
 .carousel-item {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
 }
-
 
 /*Responsive css */
 

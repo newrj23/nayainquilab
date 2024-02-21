@@ -6,7 +6,7 @@ function Contact () {
   return (
     <>
    <Navbar />
-   <div className='contact'>
+   <div className='threedcontact'>
    <p> <span> Contact us</span> <br/>Cheif Editor :   Adil Iqbal Khan <br/>
       Contact no:    9004280359 <br/>
       Email: Nayainquilab786@gmail.com<br/>

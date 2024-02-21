@@ -65,12 +65,12 @@ function Slidebar() {
             find.reduce(reduceFind, []).map((ito,index) => {
               return (
 
-                <Carousel.Item key={index} className="cardnew1">
+                <Carousel.Item key={index} >
                   <div className="cards-wrap">        
 
                     {ito.map((ito,index) => {
                       return (
-                    <Card key={index}  style={{ width: '28rem' }}  >
+                    <Card className="cardnew1" key={index}  style={{ width: '28rem' }}  >
                       <Card.Img variant="top" src={ito.snippet.thumbnails.medium.url} />
                       <Card.Body>
                         <Card.Title> {ito.snippet.title}</Card.Title>
