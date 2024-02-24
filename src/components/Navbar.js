@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaTimes } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { NavLink } from 'react-router-dom';
 import "./navbar.css";
-import animat from "../Images/anim1.mp4"
+import animat from "../Images/anim3.gif"
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
 
@@ -12,11 +12,13 @@ function Navbar() {
             <nav className='main-nav' >
                 {/* 1 logo part */}
                 <div className='logo'>
+                
                     <h3>Naya Inquilab</h3>
-                    {/*<img src='images/Naya inq Logo 2.png' alt='Logo' />*/}
-                    <video width="200"  height="70"  autoPlay loop muted>
+                    {/* <img src='images/Naya inq Logo 2.png' alt='Logo' /> */}
+                    <img src={animat} width='250' height='150' alt='Logo' />
+                    {/* <video width="200"  height="70"  autoPlay loop muted>
                         <source src={animat} />
-                    </video>
+                    </video> */}
                 </div>
 
                 {/* 2 menu part */}

@@ -6,9 +6,9 @@ const Footer = () => {
     return (
         <>
             <div className='footer'>
-                <h3>  Naya Inquilab Subcribe Our channel  </h3>
+                <h3>  Naya Inquilab Subscribe Our channel  </h3>
                 <a className="footer-youtube "  href='https://www.youtube.com/@nayainquilabtvnews1854'
-                    target='_new'><FaYoutube /> Subcribe Now</a>
+                    target='_new'><FaYoutube /> Subscribe Now</a>
                      <div className='social-media-mobile'>
                     <ul>
                         <li>

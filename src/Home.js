@@ -10,8 +10,11 @@ function Home() {
     <>
       <Navbar />
       <Slidebar />
-      {/* <div className='home'></div> */}
-      <Footer /> 
+      
+      <Footer />
+      <div className='nawa'>
+        
+      </div>
     </>
   );
 }

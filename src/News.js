@@ -3,18 +3,15 @@ import Navbar from './components/Navbar';
 import Api from './components/Api';
 import Footer from './components/Footer';
 
-function News () {
+function News() {
   return (
-  <>
-   <Navbar />
-   <Api />
-   <span className='new'>
-
-   </span>
-  <Footer />
-   </>
-  ); 
+    <>
+      <Navbar />
+      <Api />
+      <Footer />
+    </>
+  );
 }
 
-export default News; 
+export default News;
 

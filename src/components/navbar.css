@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lobster', sans-serif;
+    /* font-family: 'Lobster', sans-serif; */
+    font-family: "Anta", sans-serif;
 }
 
 html {
@@ -34,14 +35,15 @@ li {
     display:flex ;
     justify-content: center;
     align-items: center;
+   
 }
 
 .logo h3 {
     /* float: right; 
     text-align: center; */
     color: gold;
-    /* margin-left: 10px;
-    margin: 13px; */
+    /* margin-left: 5px; */
+    /*margin: 13px; */
 }
 
 /* navbar style start */
@@ -219,11 +221,11 @@ li {
     background-image: url(../Images/threedcontact.jpg);
 }
 
-.new {
+.nawa{
     background-image: url(../Images/home.png);
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.5;
+    background-size: cover;
 }
 
 .wrapper {
@@ -250,11 +252,18 @@ li {
     height: 10px !important;
     border: 1px solid transparent !important;
     border-radius: 10px;
+    /* background-color: #3c9feb !important; */
+    background-color: #fff !important;
+
 }
 .carousel-item {
     padding-left: 15%;
     padding-right: 15%;
     
+}
+.carousel-control-prev, .carousel-control-next  {
+    filter: invert(100%);
+    width: 100px;
 }
 
 /*Responsive css */
@@ -321,13 +330,37 @@ li {
         transition: all 1s ease;
         text-align: center;
         padding: 32px;
+        z-index: 100;
     }
+
+.menu-link- li {
+    z-index: 1;
+    position: relative;
+}
+.menu-link- li:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    height: 20%;
+    background: #f00;
+    transition: .5s;
+    z-index: -1;
+   /* background: rgba(156, 71, 131, 0.993); */
+}
+
+.menu-link- li:hover:before {
+    height: 100%;
+}
+
 
     .mobile-menu {
         position: absolute;
         display: block;
-        font-size: 20px;
-        color: black;
+        font-size: 22px;
+        /* color: black; */
+        color: #fff;
         border: none;
         outline: none;
         top: 15px;
